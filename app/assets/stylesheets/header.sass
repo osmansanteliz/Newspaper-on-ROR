@@ -1,0 +1,18 @@
+// Place all the styles related to the header controller here.
+// They will automatically be included in application.css.
+// You can use Sass here: https://sass-lang.com/
+
+header
+  width: 920px
+  margin: 0 auto
+  background-color: #011826
+  text-align: center
+  color: #f1f2eb
+  //content: asset-data-url("logo.jpg")
+
+.logo
+  width: 160px
+  height: 100px
+  background-image: asset-url("logo.jpg")
+  &:after
+    content: asset-path("logo.jpg")
